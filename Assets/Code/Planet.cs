@@ -25,6 +25,8 @@ public class Planet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        planetScale = transform.localScale.x;
+        radius = GetComponent<SphereCollider>().radius;
         //transform.localScale = new Vector3(planetScale, planetScale, planetScale);
     }
 

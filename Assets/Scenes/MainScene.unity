@@ -338,7 +338,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 200683800}
-  m_LocalRotation: {x: 0.31842792, y: 0.000000016310738, z: -0.0000000054789924, w: 0.9479471}
+  m_LocalRotation: {x: 0.18753652, y: -0.0000000084505505, z: 0.0000000016134125,
+    w: 0.98225766}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -421,7 +422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 3
-  m_FollowOffset: {x: 0, y: 2.5, z: -3}
+  m_FollowOffset: {x: 0, y: 2.5, z: -5.54}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -672,7 +673,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.990762
-  m_Center: {x: 0, y: 0.00000047683716, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &243564478
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,7 +703,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243564478}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalPosition: {x: 0, y: 19.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -986,8 +987,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481586525}
-  m_LocalRotation: {x: 0.31842795, y: 0.00000003262147, z: -0.000000010957985, w: 0.947947}
-  m_LocalPosition: {x: 0, y: 2.5, z: -3}
+  m_LocalRotation: {x: 0.18753657, y: -0.000000016901101, z: 0.0000000032268257, w: 0.98225766}
+  m_LocalPosition: {x: 0, y: 2.5, z: -5.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1747,12 +1748,12 @@ MonoBehaviour:
   oxygenSpawnRate: 2
   mooncakeSpawnRate: 2
   meteorSpawnRate: 0.2
-  maxOxygen: 10
-  maxMooncake: 10
+  maxOxygen: 20
+  maxMooncake: 20
   oxygenTime: 10
   oxygenSupplyAmount: 5
-  minSpawnRadius: 30
-  maxSpawnRadius: 40
+  minSpawnRadius: 40
+  maxSpawnRadius: 50
   targetRadius: 2
   oxygenParent: {fileID: 20070811}
   mooncakeParent: {fileID: 494708498}
@@ -1945,7 +1946,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006007267}
-  m_LocalRotation: {x: 0.29635394, y: 0.000000016433438, z: -0.000000005099179, w: 0.9550782}
+  m_LocalRotation: {x: 0.16470192, y: -0.000000008485699, z: 0.0000000014169621, w: 0.9863434}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2146,7 +2147,7 @@ MonoBehaviour:
   - m_Height: 4.5
     m_Radius: 1.75
   - m_Height: 2.5
-    m_Radius: 3
+    m_Radius: 5.54
   - m_Height: 0.4
     m_Radius: 1.3
   m_LegacyHeadingBias: 3.4028235e+38
@@ -2162,7 +2163,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087960002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 12.5, z: -3}
+  m_LocalPosition: {x: 0, y: 22.34, z: -5.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2590,7 +2591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 3
-  m_FollowOffset: {x: 0, y: 2.5, z: -3}
+  m_FollowOffset: {x: 0, y: 2.5, z: -5.54}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -3151,7 +3152,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541269628}
-  m_LocalRotation: {x: 0.34042525, y: 1.2449041e-25, z: -4.507174e-26, w: 0.9402717}
+  m_LocalRotation: {x: 0.21036874, y: -0.000000014567716, z: 0.0000000031347414, w: 0.9776221}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3323,7 +3324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 3
-  m_FollowOffset: {x: 0, y: 2.5, z: -3}
+  m_FollowOffset: {x: 0, y: 2.5, z: -5.54}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -3885,7 +3886,7 @@ Transform:
   m_GameObject: {fileID: 8164078558755945328}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 543450653693106451}
