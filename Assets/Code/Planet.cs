@@ -6,7 +6,11 @@ public class Planet : MonoBehaviour
 {
     public static Planet Instance { get; private set; }
 
-    private static float planetScale = 20f;
+    private static float planetScale = 10f;
+    //private static float planetScale = 20f;
+
+    private static float radius = 0.990762f;
+    //private static float radius = 0.5f;
 
     private void Awake()
     {
@@ -21,7 +25,7 @@ public class Planet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.localScale = new Vector3(planetScale, planetScale, planetScale);
+        //transform.localScale = new Vector3(planetScale, planetScale, planetScale);
     }
 
     // Update is called once per frame
@@ -32,6 +36,6 @@ public class Planet : MonoBehaviour
 
     public static Vector3 GetRandomPointOnPlanet()
     {
-        return Random.onUnitSphere * planetScale / 2;
+        return Random.onUnitSphere * planetScale * radius;
     }
 }

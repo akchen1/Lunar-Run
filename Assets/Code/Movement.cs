@@ -45,7 +45,7 @@ public class Movement : MonoBehaviour
     public void Move(Vector2 direction)
     {
         transform.RotateAround(target.position, transform.right * direction.y, 40 * Time.deltaTime);
-        transform.RotateAround(transform.position, transform.up * direction.x, 100 * Time.deltaTime);
+        transform.RotateAround(transform.position, transform.up * direction.x, 180 * Time.deltaTime);
         RaycastHit hit;
 
         if (Physics.Raycast(transform.position, (target.position - transform.position).normalized, out hit, 1f, 1 << 3))
